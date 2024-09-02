@@ -1,4 +1,5 @@
 #include <iostream>
+#include <vector>
 
 void MultiplyWithOutAMP() {
     int aMatrix[3][2] = {{1, 4}, {2, 5}, {3, 6}};
@@ -17,7 +18,21 @@ void MultiplyWithOutAMP() {
     }
 }
 
+void matrixmult()
+{
+
+}
+
 int main() {
-    MultiplyWithOutAMP();
-    getchar();
+    /*MultiplyWithOutAMP();
+    getchar();*/
+
+    std::vector<int> v = {8,4,5,9};
+
+    // Print the vector
+    for (int n : v)
+        std::cout<<n<<' ';
+    std::cout<<'\n';
+    return 1;
+
 }
