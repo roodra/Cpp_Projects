@@ -302,7 +302,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C:\Workspace\Cpp_Projects\src\main.cpp" />
-    <ClCompile Include="C:\Workspace\Cpp_Projects\src\other.cpp" />
+    <ClCompile Include="C:\Workspace\Cpp_Projects\src\multiply.cpp" />
     <ClInclude Include="C:\Workspace\Cpp_Projects\src\main.h" />
   </ItemGroup>
   <ItemGroup>

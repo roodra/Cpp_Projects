@@ -4,7 +4,7 @@
     <ClCompile Include="C:\Workspace\Cpp_Projects\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Workspace\Cpp_Projects\src\other.cpp">
+    <ClCompile Include="C:\Workspace\Cpp_Projects\src\multiply.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

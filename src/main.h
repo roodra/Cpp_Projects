@@ -1,1 +1,1 @@
-void print_hello_world();
+int multiply(int a , int b);
