@@ -7,6 +7,12 @@
     <ClCompile Include="C:\Workspace\Cpp_Projects\src\multiply.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Workspace\Cpp_Projects\src\Input_vec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\Cpp_Projects\src\print_vec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Workspace\Cpp_Projects\src\main.h">
