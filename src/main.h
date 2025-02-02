@@ -4,6 +4,8 @@ using namespace std;
 
 int multiply(int a, int b);
 
-void inputVector(vector<int> &vec); 
+int add(int a, int b);
 
-void printVector(const vector<int> &vec);
+//void inputVector(vector<int> &vec); 
+
+//void printVector(const vector<int> &vec);
