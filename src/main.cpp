@@ -1,14 +1,23 @@
 #include "main.h"
 #include <iostream>
 #include <vector>
+#include <cmath>
 using namespace std;
+
+struct params
+{
+    int a;
+    int b;
+    int r;
+};
 
 int main() 
 {
-    std::cout<<"text"<<endl;
-    std::cout<<multiply(2,3)<<endl;
-    std::cout<<multiply(4,5);
-    std::cout<<add(2,3)<<endl;
+    params p;  
+    p.a = 2;
+    p.b = 3;
+
+    std::cout<<multiply(params p)<<endl;
 
     return 0;
 }

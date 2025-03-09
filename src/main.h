@@ -1,11 +1,23 @@
-#include <vector>
-using namespace std;
-#include <iostream>
+#ifndef MAIN_H
+#define MAIN_H
 
-int multiply(int a, int b);
+struct params
+{
+    int a;
+    int b;
+    int r;
+};
 
-int add(int a, int b);
+int multiply(struct params p);
+
+int add(struct params p);
+
+void mult(int *a, int *b, int *c);
+
+double euler(double x);
 
 //void inputVector(vector<int> &vec); 
 
 //void printVector(const vector<int> &vec);
+
+#endif

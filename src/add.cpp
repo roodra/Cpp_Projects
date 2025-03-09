@@ -1,4 +1,6 @@
-int add(int a, int b)
+#include "main.h"
+
+int add(struct params p)
 {
-    return a+b;
+    return p.a+p.b;
 }

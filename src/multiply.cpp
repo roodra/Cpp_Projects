@@ -1,5 +1,7 @@
 
-int multiply(int a, int b) 
+#include "main.h"
+
+int multiply(struct params p)
 {
-    return a*b*2;
+    return p.a*p.b;
 }
