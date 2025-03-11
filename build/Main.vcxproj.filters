@@ -22,6 +22,12 @@
     <ClCompile Include="C:\Workspace\Cpp_Projects\src\euler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\Workspace\Cpp_Projects\src\displayMemoryUsage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Workspace\Cpp_Projects\src\Stack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\Workspace\Cpp_Projects\src\main.h">

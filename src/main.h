@@ -1,5 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
+#define MAX 5
 
 struct params
 {
@@ -16,8 +17,23 @@ void mult(int *a, int *b, int *c);
 
 double euler(double x);
 
-//void inputVector(vector<int> &vec); 
+void displayMemoryUsage();
 
-//void printVector(const vector<int> &vec);
+class Stack
+{
+    private:
+        int top;
+        int arr[MAX];
+
+    public:
+        Stack();
+        bool isFull();
+        bool isEmpty();
+        void push(int value);
+        void pop();
+        int peek();
+        void display(); 
+};
+
 
 #endif

@@ -308,6 +308,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="C:\Workspace\Cpp_Projects\src\add.cpp" />
     <ClCompile Include="C:\Workspace\Cpp_Projects\src\mult.cpp" />
     <ClCompile Include="C:\Workspace\Cpp_Projects\src\euler.cpp" />
+    <ClCompile Include="C:\Workspace\Cpp_Projects\src\displayMemoryUsage.cpp" />
+    <ClCompile Include="C:\Workspace\Cpp_Projects\src\Stack.cpp" />
     <ClInclude Include="C:\Workspace\Cpp_Projects\src\main.h" />
   </ItemGroup>
   <ItemGroup>
