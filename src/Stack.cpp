@@ -3,7 +3,7 @@
 
 Stack::Stack()
 {
-    top = 0;
+    top = -1;
 }
 
 bool Stack::isFull() { 

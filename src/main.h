@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-#define MAX 5
+#define MAX 3 
 
 struct params
 {
@@ -10,13 +10,9 @@ struct params
 };
 
 int multiply(struct params p);
-
 int add(struct params p);
-
 void mult(int *a, int *b, int *c);
-
 double euler(double x);
-
 void displayMemoryUsage();
 
 class Stack
@@ -34,6 +30,19 @@ class Stack
         int peek();
         void display(); 
 };
+
+
+class car
+{
+    private:
+        char a;
+        int b;
+
+    public:
+        car();
+        int add(int b);
+};
+
 
 
 #endif
