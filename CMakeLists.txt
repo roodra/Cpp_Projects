@@ -9,6 +9,11 @@ include_directories(src)
 # Add the library (mylib)
 add_library(mylib STATIC src/mylib.cpp)
 
+set(CUDA_TOOLKIT_ROOT_DIR "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8")
+include_directories("${CUDA_TOOLKIT_ROOT_DIR}/include")
+link_directories("${CUDA_TOOLKIT_ROOT_DIR}/lib/x64")
+
+
 # Specify include directories for headers
 target_include_directories(mylib PUBLIC src)
 

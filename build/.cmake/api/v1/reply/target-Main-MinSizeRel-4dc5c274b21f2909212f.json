@@ -14,6 +14,7 @@
 		"commands" : 
 		[
 			"add_executable",
+			"link_directories",
 			"target_link_libraries",
 			"include_directories"
 		],
@@ -29,19 +30,31 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 18,
+				"line" : 14,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
+				"line" : 23,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
 				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
 				"parent" : 0
 			}
 		]
@@ -58,8 +71,12 @@
 			"includes" : 
 			[
 				{
-					"backtrace" : 3,
+					"backtrace" : 4,
 					"path" : "C:/Workspace/Cpp_Projects/src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.8/include"
 				}
 			],
 			"language" : "CXX",
@@ -81,7 +98,7 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 2,
+			"backtrace" : 3,
 			"id" : "mylib::@6890427a1f51a3e7e1df"
 		},
 		{
@@ -103,6 +120,11 @@
 			},
 			{
 				"backtrace" : 2,
+				"fragment" : "-LIBPATH:\"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.8\\lib\\x64\"",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
 				"fragment" : "MinSizeRel\\mylib.lib",
 				"role" : "libraries"
 			},
